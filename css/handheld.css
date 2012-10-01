@@ -1,0 +1,122 @@
+/* -- RESETS -- */
+* { margin: 0; padding: 0; }
+
+body { font-size: 2.5em; font-family: Helvetica, sans-serif; }
+
+div#top_nav ul li, nav ul li {
+	background-color: #263e8c;
+	text-align: center;
+	list-style-type: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 8px;
+}
+
+div#top_nav ul li a, nav ul li a {
+	color: white;
+}
+
+.break, .extra {
+	display: none;
+}
+
+blockquote {
+	background-color: #d3d3d3;
+	padding: 1em;
+	margin: 1em;
+}
+
+blockquote p#quoter { 
+	font-size: .9em;
+}
+
+aside { 
+	display: none; 
+}
+
+header hgroup#fdem { 
+	font-family: Times, serif; 
+
+}
+header hgroup#fdem h1 { 
+	font-size: 3em; 
+	font-weight: normal; 
+	letter-spacing: 2px; 
+	text-align: center; 
+}
+
+header hgroup#fdem h2 { 
+	font-size: 1em; 
+	font-weight: normal; 				
+	text-align: center;  
+}
+
+header hgroup#zombie_attacks { 
+	font-family: Helvetica, sans-serif; 
+}
+
+header hgroup#zombie_attacks h1 { 
+	font-weight: normal; 
+	font-size: 1.5em; 
+}
+
+header hgroup#zombie_attacks h2 { 
+	font-weight: normal; 
+	font-size: 1em; 
+}
+
+header hgroup#fdem { 
+	color: white; 
+	background-color: #263e8c; 
+}
+
+header hgroup#zombie_attacks { 
+	background: black url("../images/check.jpg") no-repeat; 
+}
+
+header hgroup#zombie_attacks { 
+	color: white; 
+}
+
+
+header hgroup#fdem { 
+	padding-bottom: 20px; 
+}
+
+header hgroup#zombie_attacks { 
+	margin: .5em;
+}
+
+header hgroup#zombie_attacks h1 { 
+	margin-left: 130px; 
+	margin-top: 8px; 
+}
+
+header hgroup#zombie_attacks h2 { 
+	margin-left: 130px; 
+	margin-top: 3px; 
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+article ul, article ol {
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+article ol li {
+	margin-bottom: 1em;
+}
+
+footer { border-top: 1px solid black; text-align: center; }
+footer p { margin: 0; }
+
+article {
+	margin: 1em;
+}

@@ -1,0 +1,100 @@
+/* -- RESETS -- */
+* {	margin: 0; padding: 0; }
+img { border: none; }
+
+
+/* -- TOOLBOX -- */
+.left { float: left; }
+.right { float: right; }
+.clear {clear: both; }
+
+
+/* -- TYPOGRAPHY -- */
+body { font-family: Helvetica, sans-serif; }
+header hgroup#fdem { font-family: Times, serif; }
+header hgroup#fdem h1 { font-size: 32pt; font-weight: normal; letter-spacing: 2px; text-align: center; }
+header hgroup#fdem h2 { font-size: 12pt; font-weight: normal; 				line-height: 16px; text-align: center; }
+header hgroup#zombie_attacks { font-family: Helvetica, sans-serif; }
+header hgroup#zombie_attacks h1 { font-weight: normal; font-size: 24pt; line-height: 24pt; }
+header hgroup#zombie_attacks h2 { font-weight: normal; font-size: 9pt; }
+nav ul li a span.title { text-transform: uppercase; font-size: 12pt; }
+div#crumbs { font-size: 10pt; }
+article h1 { text-transform: uppercase; font-weight: normal; font-size: 16pt; }
+blockquote p { text-align: right; font-size: 10pt; }
+blockquote p#quote { text-align: center; font-family: Times, serif; font-size: 16pt;  }
+article { font-size: 10pt; line-height: 12pt; }
+footer { text-align: center; font-size: 8pt; }
+
+
+/* -- COLORS & BACKGROUNDS -- */
+body { background-color: white; }
+div#wrapper { background-color: #e9e8e5; }
+header hgroup#fdem { color: white; background-color: #263e8c; }
+header hgroup#zombie_attacks { background: black url("../images/check.jpg") no-repeat; }
+header hgroup#zombie_attacks { color: white; }
+div#crumbs p { color: gray; }
+article h1 { color: #263e8c; }
+blockquote { background-color: #b1b0ae; }
+footer { background-color: rgb(50, 50, 50); color: white; }
+
+
+/* -- LAYOUT -- */
+div#wrapper { width: 1020px; margin: 50px auto; }
+div#inner_wrapper { margin: 0 auto; width: 920px; }
+header { height: 90px; }
+header hgroup#fdem { float: left; width: 190px; height: 99px; position: relative; top: -30px;}
+header hgroup#fdem h1 { margin: 0 auto; width: 150px; }
+header hgroup#fdem h2 { margin: 0 auto; margin-top: 7px; }
+header hgroup#zombie_attacks { width: 281px; height: 99px; float: left; position: relative; top: -30px; margin-left: 4px; }
+header hgroup#zombie_attacks h1 { margin-left: 130px; margin-top: 8px; }
+header hgroup#zombie_attacks h2 { margin-left: 115px; margin-top: 3px; }
+header div#top_nav ul li { float: left; list-style-type: none; margin-left: 60px; margin-top: 25px; }
+nav { height: 90px; clear: left; }
+nav ul li { float: left; list-style-type: none; width: 140px; margin-left: 12%; }
+nav ul li#first { margin-left: 20px; }
+nav ul li a span.break { display: none; }
+nav ul li a span { display: block; margin-bottom: -20px; margin-left: -8px; padding: 5px 0 2px 8px; }
+aside { float: left; margin-top: 20px; }
+div#crumbs { margin-top: 2px; }
+div#crumbs p { padding: 2px 0 2px 10px; }
+div#main_content { float: right; padding: 10px; margin-top: 20px; width: 700px; }
+article { padding: 0 10px 0 10px; }
+article h1 { margin: 20px 0 20px 0; }
+blockquote { width: 80%; margin: 0 auto; padding: 5px; margin-top: -10px; }
+body article img.left { margin: 0px 10px 10px 0; }
+body article img.right { margin: 0px 0px 10px 10px; }
+article p#image { text-align:center ; margin-bottom: 15px; }
+article p { margin-bottom: 16px; }
+article ul, article ol { margin-left: 20px; margin-bottom: 16px; }
+article ol li { margin-bottom: 10px; }
+footer { padding: 10px; }
+
+
+/* -- LINKS -- */
+header div#top_nav ul li a { text-decoration: none; font-size: 8pt; text-transform: uppercase; }
+header div#top_nav ul li a:link, header div#top_nav ul li a:visited { color: rgb(125, 125, 125); }
+header div#top_nav ul li a:hover, header div#top_nav ul li a:active { color: black; }
+
+nav ul li a { text-decoration: none; color: black; font-size: 8pt; }
+nav ul li a span.title:hover { background-color: #8291c4; border: 0px solid #8291c4; border-radius: 6px; }
+nav ul li a span.title:active { background-color: #263e8c; }
+
+footer a { color: white; text-decoration: none; }
+footer a:hover { color: yellow; text-decoration: underline; }
+
+			
+/* -- DECORATION -- */
+header { border-bottom: 1px solid #263e8c; }
+header hgroup#fdem h1 { border-bottom: 2px solid white; }
+nav { border-bottom: 2px solid #263e8c; }
+div#crumbs { border-bottom: 1px solid #263e8c; }
+div#main_content { border-left: 1px solid #263e8c; }
+
+			
+			
+			
+
+			
+			
+			
+			
